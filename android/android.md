@@ -37,9 +37,9 @@ android分四层
 
 ```
 
-应用程序：
-由activity所组成的常见的应用。
-应用程序框架：
+应用程序
+由activity所组成的常见的应用
+应用程序框架
 
 ```
 1.Views 可扩展视图  用来构建应用程序，包含list、buttons 等
@@ -72,11 +72,11 @@ UI、自定义UI、资源文字、图片
 
 ###android 网络相关
 
-一般android与服务器交互有两种方式：
+一般android与服务器交互有两种方式
 1.http GET/POST  
 2.Socket TCP/UDP
 
-常见传输格式：
+常见传输格式
 1.json
 2.xml
 
@@ -97,12 +97,12 @@ json优化结构、尽量缩减请求体
 ######优化
 
 接口数据可以根据需求保存到内存或本地中
-本地保存方式：
-···
+本地保存方式
+```
 1.SharedPreferences
 2.file
 3.sql
-···
+```
 
 ###其他
 TODO
