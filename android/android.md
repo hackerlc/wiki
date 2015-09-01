@@ -22,7 +22,7 @@ java虚拟机：编译连接后采用Java bytecode，需要虚拟机来执行指
 ```
 
 ###android 基本架构
-
+![android架构](http://images.cnitblog.com/blog/473657/201301/18203746-970e2cbe223e4c1c9ca129e7a2feb6c6.jpg)
 android 底层为linux系统，在系统上增加了java虚拟机Dalvik，并在Dalvik虚拟机上搭建了一个java的application framework，所有的应用程序都基于java的application framework上
 
 android分四层
