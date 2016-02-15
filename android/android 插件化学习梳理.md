@@ -136,3 +136,8 @@ public class Content {
 ```
 ###问题2(待验证)
 是否可以通过主程序下载插件并实现更新加载
+
+###参考
+http://www.alloyteam.com/2014/04/android-cha-jian-yuan-li-pou-xi/
+http://blog.csdn.net/com360/article/details/14125683
+http://blog.csdn.net/com360/article/details/14127395
