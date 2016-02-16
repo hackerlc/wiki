@@ -116,4 +116,4 @@ json优化结构、尽量缩减请求体、gzip压缩
 优化上会单独分开写
 也借鉴了Trinea博主的文章，非常感谢分享
 
-http://www.trinea.cn/android/layout-performance/
+http://www.trinea.cn/android/performance/
