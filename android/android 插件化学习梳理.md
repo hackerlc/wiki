@@ -135,7 +135,12 @@ public class Content {
 02-15 18:13:19.658 4970-4970/com.bandroid.demo D/PluginImp: ha ha I'm 1.0
 ```
 ###问题2(待验证)
-是否可以通过主程序下载插件并实现更新加载
+是否可以通过主程序下载插件并实现更新加载？
+如何加载插件中activity并管理生命周期？
+是否可以用R方式调用资源文件？
+
+分析文章
+http://blog.csdn.net/singwhatiwanna/article/details/39937639
 
 ###参考
 http://www.alloyteam.com/2014/04/android-cha-jian-yuan-li-pou-xi/
