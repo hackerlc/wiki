@@ -17,18 +17,18 @@ public class BaseWeb {
         if(settings==null)
             new RuntimeException("settings is not null");
 
-        settings.setJavaScriptEnabled(true);
-        settings.setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
-        settings.setDefaultTextEncodingName("utf-8");
-        settings.setDomStorageEnabled(true);
-        settings.setDatabaseEnabled(true);
-        settings.setBuiltInZoomControls(true);
+        settings.setJavaScriptEnabled(true);//允许支持js
+        settings.setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);//设置缓存模式，优先使用缓存
+        settings.setDefaultTextEncodingName("utf-8");//设置默认编码
+        settings.setDomStorageEnabled(true);//设置是否启用了DOM
+        settings.setDatabaseEnabled(true);//启用数据库
+        settings.setBuiltInZoomControls(true);//隐藏缩放按钮
         String cacheDirPath = context.getFilesDir().getAbsolutePath()+"test";
-        settings.setDatabasePath(cacheDirPath);
-        settings.setAppCachePath(cacheDirPath);
-        settings.setAppCacheEnabled(true);
+        settings.setDatabasePath(cacheDirPath);//设置数据库路径
+        settings.setAppCachePath(cacheDirPath);//设置缓存路径
+        settings.setAppCacheEnabled(true);//开启缓存
         if(Build.VERSION.SDK_INT >= 19) {
-            settings.setLoadsImagesAutomatically(true);
+            settings.setLoadsImagesAutomatically(true);//自动加载图片资源
         } else {
             settings.setLoadsImagesAutomatically(false);
         }
