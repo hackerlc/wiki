@@ -110,3 +110,6 @@ onCreate 加入下面代码
 ```
 ActivityDatabindingBinding 是根据你的layout名字自动生成的
 #### 7.Run app
+
+#### 引用
+https://segmentfault.com/a/1190000002876984
