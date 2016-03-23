@@ -108,4 +108,5 @@ onCreate 加入下面代码
         user.setPwd("123123");
         binding.setUser(user);
 ```
+ActivityDatabindingBinding 是根据你的layout名字自动生成的
 #### 7.Run app
