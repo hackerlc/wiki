@@ -112,4 +112,4 @@ ActivityDatabindingBinding 是根据你的layout名字自动生成的
 #### 7.Run app
 
 #### 引用
-https://segmentfault.com/a/1190000002876984
+http://www.jianshu.com/p/b1df61a4df77
