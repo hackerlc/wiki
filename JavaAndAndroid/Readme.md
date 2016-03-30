@@ -82,6 +82,8 @@ MVP是模型（Model）、视图（View）、主持人（Presenter）的缩写�
 **主持人（Presenter）**
 相当于协调者，是模型与视图之间的桥梁，将模型与视图分离开来。
 
+### activity
+![live](http://pic002.cnblogs.com/images/2012/402670/2012050219053256.jpg)
 
 ###android 网络相关
 
