@@ -97,6 +97,11 @@ Q.对称加密与非对称加密有什么区别
 
 A.对称加密可以使用相同的秘钥加解密，非对称加密有自己的私钥和公钥，加密放使用公钥加密，解密则需要使用私钥解密。
 
+####4.11
+Q.activity中有哪几种方式可以进行数据交互
+
+A.Intent、static 变量、数据库、sheardPreferences、interface
+
 ###5
 ####5.1
 Q.layout中有那几大布局
@@ -123,4 +128,7 @@ A.在界面加载时不需要首先显示的layout可以使用viewstub，当使�
 ###6
 
 Q.现在常用的开源框架有哪些
-Q.
+Q.fresco
+Q.Rxjava是否了解
+Q.dexClassLoader，热部署热修复
+Q.databinding
