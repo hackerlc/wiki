@@ -128,7 +128,15 @@ A.在界面加载时不需要首先显示的layout可以使用viewstub，当使�
 ###6
 
 Q.现在常用的开源框架有哪些
-Q.fresco
+
+Q.fresco、retrofit
+
 Q.Rxjava是否了解
+
 Q.dexClassLoader，热部署热修复
+
 Q.databinding
+
+Q.有没有开源代码或框架，是否有上传的Bintray可以在jcenter或maven中央仓库中下载
+
+Q.有没有接触过服务器自动打包发布相关内容
